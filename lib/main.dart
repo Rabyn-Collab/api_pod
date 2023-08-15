@@ -4,7 +4,8 @@ import 'package:get/get.dart';
 import 'package:movie/views/home_page.dart';
 
 
-void main (){
+
+void main () async{
   runApp(ProviderScope(child: Home()));
 }
 

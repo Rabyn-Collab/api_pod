@@ -33,4 +33,19 @@ class Movie {
     );
   }
 
+
+  @override
+  String toString() {
+
+    return  'Movie('
+           'id : ${this.id}'
+           'title : ${this.title}'
+           'backdrop_path: ${this.backdrop_path} '
+            'overview: ${this.overview}'
+            'poster_path: ${this.poster_path}'
+           'release_date: ${this.release_date}'
+           'vote_average: ${this.vote_average}'
+           ')';
+  }
+
 }

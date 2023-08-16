@@ -19,7 +19,7 @@ class Home extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-      theme: ThemeData(
+      theme: ThemeData.dark(
           useMaterial3: true
       ),
     );
